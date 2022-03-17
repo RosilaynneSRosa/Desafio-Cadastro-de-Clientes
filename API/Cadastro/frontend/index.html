@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <center>
+            <div id="homeInterface" style="display: inline;">
+                <div class="container">
+                    <div class="content">
+                        <div class="column">
+                            <h1 class="title">Home</h1><br>
+                            <button id="cadastrar" class="btn">Novo Cadastro</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="cadastrarInterface" style="display: none;">
+                <div class="container">
+                    <div class="content">
+                        <div class="column">
+                            <h1 class="title">Cadastro</h1><br>
+                            <form id="formulario" class="form">
+                                <label class="label-input" id="nomeLabel" for="nome">
+                                    <input type="text" placeholder="Nome" name="nome" id="nome" />
+                                </label>
+                                <br>
+                                <label class="label-input" id="emailLabel" for="email">
+                                    <input type="text" placeholder="E-mail" name="email" id="email" />
+                                </label>
+                                <br>
+                                <label class="label-input" id="telefoneLabel" for="telefone">
+                                    <input type="text" placeholder="Telefone" name="telefone" id="telefone" />
+                                </label>
+                                <br>
+                                <label class="label-input" id="enderecoLabel" for="endereco">
+                                    <input type="text" placeholder="Endereço" name="endereco" id="endereco" />
+                                </label>
+                                <br>
+                                <label class="label-input" id="profissaoLabel" for="profissao">
+                                    <input type="text" placeholder="Profissão" name="profissao" id="profissao" />
+                                </label>
+                                <br>
+                                <input id="carregarCurriculo" class="btn" type="file" accept="application/pdf" />
+                                <br><br>
+                                <input id="limpar" class="btn" type="reset" value="Limpar" />
+                            </form>
+                            <button id="cancelar" class="btn">Cancelar</button>
+                            <button id="enviar" class="btn1" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <h5 class="footer">&copy: Rosilaynne Rosa - 2022</h5>
+        </center>
+        <script src="js/app.js"></script>
+    </body>
+</html>

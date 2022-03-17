@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00bfff;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    border-radius: 15px;
+    background-color: #ffff;
+    width: 400px;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;   
+}
+
+.column{
+    text-align: center;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    
+}
+
+.footer{
+    font: Arial;
+     size: 2;
+     color: #007fff;
+     font-size: 16px;
+     font-weight: bold;
+     text-transform: capitalize;
+     align-items: center;
+     text-align: center;
+}
+
+.form input{
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    width: 100%;
+    align-items: center;
+}
+
+.title{
+    color: #00bfff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+}
+
+.btn, .btn1{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #00bfff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border-width: 0;
+    border: 1px solid #00bfff;
+}
+
+.btn1{
+    
+    color: #006ad4;
+}
+
+.btn, .btn1:hover{
+    background-color: #ffff;
+    border: 1px solid #00bfff;
+    color: #00bfff;
+    transition: background-color .5s;
+}
+
+.fa-user, .fa-lock{
+    margin-left: 8px;
+    margin-right: 8px;
+}
